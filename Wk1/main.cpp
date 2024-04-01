@@ -1,4 +1,5 @@
 #include <iostream>
+#include "vec3.h"
 
 int main() {
 
@@ -26,4 +27,7 @@ int main() {
         }
     }
     std::cerr << "\nDone.\n";
+
+    vec3 v{1, 2, 3};
+    std::cerr << v.e[1] << v.e[2] << v.e[3] << std::endl;;
 }
