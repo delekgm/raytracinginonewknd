@@ -1,3 +1,4 @@
+// TO RUN: ./main > image.ppm
 #include "rtweekend.h"
 
 #include "color.h"
